@@ -4,7 +4,7 @@ import "../CSS/process.css";
 
 function Process() {
   return (
-    <section className={"container"}>
+    <section className={"prc-container"}>
       <h1 className={"heading"}>Our process.</h1>
       <ul className="phases-list">
         <li className={"phase"}>
