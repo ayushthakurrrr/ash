@@ -1,0 +1,80 @@
+.contact-page {
+    background-color: #000;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  .contact-logo {
+    font-size: 22vw;
+    font-weight: 900;
+    background: url('/images/footer-banner.png') center/cover no-repeat;
+    color: transparent;
+    background-size: 140%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-family: 'League Spartan';
+    margin-bottom: 2rem;
+  }
+  
+  .contact-icons {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .contact-icons a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.8rem;
+    border: 2px solid white;
+    padding: 0.6rem;
+    border-radius: 8px;
+    transition: transform 0.2s ease, background 0.2s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .contact-icons a:hover {
+    background: white;
+    color: black;
+    transform: scale(1.1);
+  }
+  
+  /* =============== Responsive Breakpoints =============== */
+  
+  @media (max-width: 768px) {
+    .contact-logo {
+      font-size: 30vw;
+      margin-bottom: 1.5rem;
+    }
+  
+    .contact-icons a {
+      font-size: 1.4rem;
+      padding: 0.5rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .contact-logo {
+      font-size: 35vw;
+      margin-bottom: 1.2rem;
+    }
+  
+    .contact-icons {
+      gap: 1rem;
+    }
+  
+    .contact-icons a {
+      font-size: 1.2rem;
+      padding: 0.4rem;
+      border-radius: 6px;
+    }
+  }
+  
