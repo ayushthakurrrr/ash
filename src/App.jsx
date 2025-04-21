@@ -30,13 +30,13 @@
 import React from 'react'
 import './App.css'
 
-import Home from "./components/Home";
-import Philosophy from "./components/Philosophy";
-import Process from "./components/Process";
-import Build from "./components/Build";
-import Services from "./components/Services";
-import Contact from "./components/Contact";
-import Connect from "./components/Connect";
+import Home from "./components/Home.jsx";
+import Philosophy from "./components/Philosophy.jsx";
+import Process from "./components/Process.jsx";
+import Build from "./components/Build.jsx";
+import Services from "./components/Services.jsx";
+import Contact from "./components/Contact.jsx";
+import Connect from "./components/Connect.jsx";
 
 function App() {
   return (
