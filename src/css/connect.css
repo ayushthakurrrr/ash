@@ -56,7 +56,7 @@
 
 /* Responsive */
 @media (max-width: 768px) {
-  .connect-text p {
+  .connect-text h1 {
     font-size: 4rem;
   }
 
@@ -71,6 +71,8 @@
   .connectUs-button {
     font-size: 1.5rem;
     padding: 0.7rem 1.8rem;
+    width: 17.5rem;
+    height: 4rem;
     margin-top: 2rem;
     margin-bottom: 2rem;
   }
