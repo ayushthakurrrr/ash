@@ -1,0 +1,91 @@
+.homepage {
+    background-color: #000;
+    color: #fff;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  .logo-text {
+    margin-bottom: 2rem;
+  }
+  
+  .text-logo {
+    font-size: 22vw;
+    margin: 0;
+    font-weight: 900;
+    letter-spacing: -5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .text-fill {
+    background: url('/images/hero-logo-bg.png') center/cover no-repeat;
+    -webkit-background-clip: text;
+    font-family: 'League Spartan';
+    background-clip: text;
+    background-size: 150%;
+    color: transparent;
+  }
+  
+  .tagline {
+    font-size: 2vw;
+    color: white;
+    font-family: 'Outfit';
+    margin-top: -0.8rem;
+  }
+  
+  .connect-button {
+    width: 90px;
+    height: 90px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border: none;
+    border-radius: 50%;
+    font-weight: bold;
+    font-family: 'Outfit';
+    cursor: pointer;
+    box-shadow: 0 2px 10px rgba(255, 255, 255, 0.2);
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    line-height: 1.1;
+    font-size: 1rem;
+    padding: 0; 
+  }
+
+  
+  .connect-button:hover {
+    background-color: #f0f0f0;
+  }
+  
+  @media (max-width: 768px) {
+    .text-logo {
+      font-size: 16vw;
+    }
+  
+    .tagline {
+      font-size: 0.9rem;
+    }
+  
+    .connect-button {
+      padding: 0.8rem 1rem;
+      width: 70px;
+      height: 70px;
+      font-size: 0.75rem;
+    }
+  }
+  
+  

@@ -1,0 +1,70 @@
+.services-section {
+    background-color: white;
+    padding: 3rem 1rem;
+    text-align: center;
+    min-height: 100vh;
+}
+
+.services-title {
+    font-size: 150px;
+    font-weight: 900;
+    font-family: "League Spartan", sans-serif;
+    margin-bottom: 2.5rem;
+    margin-top: 1.2rem;
+}
+
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 2rem;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.services-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.services-icon {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+    margin-bottom: 1rem;
+}
+
+.services-text {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #222;
+    max-width: 160px;
+    font-family: 'Outfit';
+}
+
+@media (max-width: 1120px) {
+    .services-title {
+        font-size: 100px;
+    }
+}
+
+@media (max-width: 660px) {
+    .services-title {
+        font-size: 67px;
+    }
+}
+
+@media (max-width: 480px) {
+    .services-title {
+        font-size: 2rem;
+    }
+
+    .services-icon {
+        width: 60px;
+        height: 60px;
+    }
+
+    .services-text {
+        font-size: 0.95rem;
+    }
+}

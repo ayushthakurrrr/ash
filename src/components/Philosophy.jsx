@@ -13,7 +13,7 @@
 
 // Philosophy.js
 import React from "react";
-import "./philosophy.css";
+import "../CSS/philosophy.css";
 <style>
 {/* @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap'); */}
 @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Outfit:wght@100..900&display=swap');
