@@ -3,7 +3,7 @@ import "../css/connect.css"
 
 function Connect() {
   return (
-    <section className="connect-section">
+    <section className="connect-section" id="contact">
       <div className="connect-text">
         <h1>Connect us.</h1>
         <div className="connect-roles">

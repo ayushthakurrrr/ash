@@ -49,7 +49,7 @@
   height: 90px;
   position: fixed;
   bottom: 3rem;
-  right: 4.5rem;
+  right: 3rem;
   background-color: rgb(255, 255, 255);
   color: black;
   border: 1px solid #838383;
@@ -97,6 +97,7 @@
     width: 70px;
     height: 70px;
     font-size: 0.75rem;
+
   }
 }
 
