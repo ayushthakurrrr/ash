@@ -4,12 +4,13 @@
   max-width: 100%; /* 1280px */
   background-color: #000; /* black background */
   color: #fff; /* white text */
-  padding: 6.25rem 5rem 6.25rem 5rem; /* 100px 80px 100px 80px */
+  padding: 3rem 5rem 3rem 5rem; /* 48px 80px 48px 80px */
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   box-sizing: border-box;
   margin: 0 auto;
+  min-height: 100vh; /* full height */
 }
 
 /* Heading */
@@ -17,7 +18,7 @@
   font-family: "League Spartan", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: 9.375rem; /* 150px */
   font-weight: 700;
-  margin: 2rem auto 3rem; /* 32px auto 48px */
+  margin: 0 auto 1rem auto; /* 16px auto*/
   line-height: 1.1;
 }
 
@@ -31,13 +32,12 @@
 /* Each phase item */
 .phase {
   font-family: "Outfit", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  margin-bottom: 2.5rem; /* 40px */
+  margin-bottom: 1rem; /* 16px */
 }
 
 .phase h3 {
   font-size: 1.5625rem; /* 25px */
   font-weight: 700;
-  margin-bottom: 0.5rem; /* 8px */
 }
 
 .phase p {
