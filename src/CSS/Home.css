@@ -16,14 +16,13 @@
   }
   
   .text-logo {
-    font-size: 22vw;
+    /* font-size: 22vw; */
     margin: 0;
-    font-weight: 900;
+    /* font-weight: 900; */
     letter-spacing: -5px;
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-wrap: wrap;
   }
   
   .text-fill {
@@ -32,11 +31,14 @@
     font-family: 'League Spartan';
     background-clip: text;
     background-size: 150%;
+    font-weight: 700;
     color: transparent;
+    font-size: 28.125rem;
   }
   
   .tagline {
-    font-size: 2vw;
+    font-weight: 700;
+    font-size: 1.5625rem;
     color: white;
     font-family: 'Outfit';
     margin-top: -0.8rem;
@@ -71,13 +73,24 @@
     background-color: #f0f0f0;
   }
   
-  @media (max-width: 768px) {
-    .text-logo {
-      font-size: 16vw;
+  @media (max-width: 1000px ) {
+    .text-fill {
+      font-size: 17rem;
     }
   
     .tagline {
-      font-size: 0.9rem;
+      font-size: 1.3rem;
+    }
+  }
+
+
+  @media (max-width: 620px) {
+    .text-fill {
+      font-size: 12rem;
+    }
+  
+    .tagline {
+      font-size: 1rem;
     }
   
     .connect-button {
@@ -85,6 +98,26 @@
       width: 70px;
       height: 70px;
       font-size: 0.75rem;
+    }
+  }
+
+  @media (max-width: 430px) {
+    .text-fill {
+      font-size: 10rem;
+    }
+  
+    .tagline {
+      font-size: 0.8rem;
+    }
+  }
+
+  @media (max-width: 340px) {
+    .text-fill {
+      font-size: 8rem;
+    }
+  
+    .tagline {
+      font-size: 0.8rem;
     }
   }
   

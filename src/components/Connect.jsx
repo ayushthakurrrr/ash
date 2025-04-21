@@ -13,7 +13,8 @@
 
 // Connect.js
 import React from "react";
-import "./connect.css";
+// import "./connect.css";
+import "../CSS/connect.css"
 <style>
 {/* @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap'); */}
 @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Outfit:wght@100..900&display=swap');
@@ -28,7 +29,7 @@ function Connect() {
           <span>As client.</span>
           <span>As employee.</span>
         </div>
-        <button className="connect-button">Click Here!</button>
+        <button className="connectUs-button">Click Here!</button>
       </div>
     </section>
   );
