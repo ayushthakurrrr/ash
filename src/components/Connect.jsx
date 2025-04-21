@@ -5,7 +5,7 @@ function Connect() {
   return (
     <section className="connect-section">
       <div className="connect-text">
-        <p>Connect us.</p>
+        <h1>Connect us.</h1>
         <div className="connect-roles">
           <span>As client.</span>
           <span>As employee.</span>
