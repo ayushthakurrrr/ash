@@ -1,6 +1,6 @@
 import React from 'react';
 
-import "../CSS/home"
+// import "../CSS/home.css"
 const HomePage = () => {
   return (
     <div className="homepage">
