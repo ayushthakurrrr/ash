@@ -1,5 +1,5 @@
 import React from "react";
-import "../CSS/philosophy.css";
+import "../css/philosophy.css";
 
 function Philosophy() {
   return (

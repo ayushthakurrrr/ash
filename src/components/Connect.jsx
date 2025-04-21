@@ -1,5 +1,5 @@
 import React from "react";
-import "../CSS/connect.css"
+import "../css/connect.css"
 
 function Connect() {
   return (

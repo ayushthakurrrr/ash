@@ -1,6 +1,6 @@
 // Example: Process.jsx
 import React from "react";
-import "../CSS/process.css";
+import "../css/process.css";
 
 function Process() {
   return (

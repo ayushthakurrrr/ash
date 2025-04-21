@@ -1,5 +1,5 @@
 import React from "react";
-import "../CSS/build.css";
+import "../css/build.css";
 
 function Build() {
   return (
