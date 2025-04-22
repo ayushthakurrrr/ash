@@ -1,6 +1,6 @@
 import React from 'react';
-import '../CSS/home.css';
 
+import "../css/home.css"
 const HomePage = () => {
   return (
     <div className="homepage">
@@ -10,9 +10,16 @@ const HomePage = () => {
         </h1>
         <p className="tagline">redefining the aspects of your digital requirements...</p>
       </div>
-      <button className="connect-button">
-  Connect<br />Us
-</button>
+      <button
+        className="connect-button"
+        onClick={() => {
+          const contactSection = document.getElementById('contact');
+          contactSection?.scrollIntoView({ behavior: 'smooth' });
+        }}
+      >
+        Connect<br />Us
+      </button>
+
     </div>
   );
 };

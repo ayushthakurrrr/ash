@@ -1,30 +1,11 @@
-// Example: Connect.jsx
-// import React from "react";
-
-// function Connect() {
-//   return (
-//     <section >
-//       <h1>Connect Section</h1>
-//     </section>
-//   );
-// }
-
-// export default Connect;
-
-// Connect.js
 import React from "react";
-// import "./connect.css";
-import "../CSS/connect.css"
-<style>
-{/* @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap'); */}
-@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Outfit:wght@100..900&display=swap');
-</style>
+import "../css/connect.css"
 
 function Connect() {
   return (
-    <section className="connect-section">
+    <section className="connect-section" id="contact">
       <div className="connect-text">
-        <p>Connect us.</p>
+        <h1>Connect us.</h1>
         <div className="connect-roles">
           <span>As client.</span>
           <span>As employee.</span>
