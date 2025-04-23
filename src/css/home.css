@@ -26,7 +26,7 @@
 }
 
 .text-fill {
-  background: url("/images/hero-logo-bg.png") center/cover no-repeat;
+  background: url("/images/hero-logo-bg.webp") center/cover no-repeat;
   -webkit-background-clip: text;
   font-family: "League Spartan";
   background-clip: text;
