@@ -1,0 +1,119 @@
+.clients-page {
+    height: 100vh;
+    background: linear-gradient(to bottom, #ffffff 50%, #000000 50%);
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.clients-content {
+    display: flex;
+    background: #fff;
+    overflow: visible;
+    /* changed from hidden to visible */
+    width: 900px;
+    height: 360px;
+}
+
+.clients-text {
+    background: #fff;
+    padding: 1rem;
+    display: flex;
+    text-align: left;
+    align-items: center;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 700;
+    font-size: 52px;
+    width: 50%;
+    border-top: 10px solid black;
+    border-left: 10px solid black;
+    border-bottom: 10px solid rgb(0, 0, 0);
+}
+
+.clients-number {
+    background: #000;
+    color: #fff;
+    padding: 2rem;
+    text-align: center;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Outfit', sans-serif;
+    position: relative;
+    /* make it relative to move p */
+    border-right: 10px solid white;
+    border-bottom: 10px solid white;
+    border-top: 10px solid rgb(255, 255, 255);
+}
+
+.clients-number h1 {
+    font-size: 400px;
+    margin: 0;
+}
+
+.clients-number p {
+    position: absolute;
+    bottom: -70px;
+    /* moved outside */
+    text-align: center;
+    /* transform: translateX(-50%); */
+    color: white;
+    margin: 0;
+    font-size: 45px;
+}
+
+.clients-number span {
+    font-weight: 700;
+}
+
+/* Responsive */
+@media (max-width: 1250px) {
+    .clients-content {
+        width: 72%;
+        height: 300px;
+    }
+
+    .clients-text {
+        font-size: 35px;
+    }
+
+    .clients-number h1 {
+        font-size: 200px;
+    }
+
+    .clients-number p {
+        font-size: 35px;
+    }
+}
+
+@media (max-width: 768px) {
+    .clients-content {
+        height: auto;
+        width: 85%;
+    }
+
+    .clients-text {
+        font-size: 4vw;
+        border-left: 5px solid rgb(0, 0, 0);
+        border-bottom: 5px solid rgb(0, 0, 0);
+        border-top: 5px solid rgb(0, 0, 0);
+    }
+
+    .clients-number {
+        border-right: 5px solid white;
+        border-bottom: 5px solid white;
+        border-top: 5px solid rgb(255, 255, 255);
+    }
+
+    .clients-number h1 {
+        font-size: 14vw;
+    }
+
+    .clients-number p {
+        font-size: 3.3vw;
+        bottom: -7vw;
+    }
+}

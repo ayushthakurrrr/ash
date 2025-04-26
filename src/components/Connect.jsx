@@ -10,9 +10,12 @@ function Connect() {
           <span>As client.</span>
           <span>As employee.</span>
         </div>
-        <button className="connectUs-button">Click Here!</button>
+        <a href="mailto:ashservices.space@outlook.com">
+          <button className="connectUs-button">Click Here!</button>
+        </a>
       </div>
     </section>
+
   );
 }
 
