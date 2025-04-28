@@ -45,7 +45,7 @@ function App() {
   return (
     <div className="scroll-container">
       <section className="page"><Home /></section>
-      <section className="page"><Covered /></section>
+      {/* <section className="page"><Covered /></section> */}
       <section className="page"><Services /></section>
       <section className="page"><Process /></section>
       <section className="page"><Philosophy /></section>
