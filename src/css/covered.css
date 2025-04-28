@@ -1,0 +1,113 @@
+/* covered.css */
+.whole-page{
+    /* align-items: center; */
+    background: radial-gradient(circle at center, #ffffff, #bababa);
+    display: flex;
+    justify-content: center;
+    /* font-family: outfit; */
+}
+.covered-page {
+    width: 100vw;
+    min-height: 100vh;
+    /* background: radial-gradient(circle at center, #ffffff, #bababa); */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 2rem 4rem;
+    max-width: 900px;
+  }
+  
+  .main-heading {
+    width: 100%;
+    text-align: center;
+    font-size: 7rem;
+    font-weight: 700;
+    color: #000000;
+    margin-bottom: 3rem;
+    font-family: League Spartan;
+    /* line-height: 1.2; */
+  }
+  
+  .content {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 2rem;
+  }
+  
+  .left-content {
+    flex: 2;
+    text-align: left;
+    padding-left: 2rem;
+    font-family: Outfit;
+}
+
+.right-content {
+    flex: 1;
+    text-align: left;
+    padding-left: 2rem;
+    margin-top: 3rem;
+    font-family: Outfit;
+  }
+  
+  .list {
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: #333333;
+    /* line-height: 1.8; */
+  }
+  
+  .side-heading {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #000000;
+    line-height: 1.6;
+  }
+  
+  .highlight {
+    font-size: 2.8rem;
+    font-weight: 900;
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .covered-page {
+      padding: 2rem;
+    }
+  
+    .content {
+      flex-direction: column;
+      align-items: center;
+      gap: 0rem;
+    }
+  
+    .left-content, .right-content {
+      width: 100%;
+      padding-left: 0;
+      text-align: center;
+    }
+  
+    .main-heading {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+    }
+  
+    .list {
+      font-size: 1rem;
+    }
+  
+    .side-heading {
+      font-size: 1.8rem;
+    }
+  
+    .highlight {
+      font-size: 2.2rem;
+    }
+    .right-content {
+        margin-top: 1rem;
+      }
+    
+  }
+  

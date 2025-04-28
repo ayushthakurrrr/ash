@@ -38,11 +38,14 @@ import Services from "./components/Services.jsx";
 import Contact from "./components/Contact.jsx";
 import Connect from "./components/Connect.jsx";
 import Clients from './components/Clients.jsx';
+import Covered from './components/Covered.jsx';
+
 
 function App() {
   return (
     <div className="scroll-container">
       <section className="page"><Home /></section>
+      <section className="page"><Covered /></section>
       <section className="page"><Services /></section>
       <section className="page"><Process /></section>
       <section className="page"><Philosophy /></section>
