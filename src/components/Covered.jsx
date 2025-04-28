@@ -1,5 +1,5 @@
 import React from "react";
-import "../CSS/covered.css";
+import "../css/covered.css";
 
 function Covered() {
   return (
