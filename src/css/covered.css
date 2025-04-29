@@ -90,8 +90,8 @@
     }
   
     .main-heading {
-      font-size: 3rem;
-      margin-bottom: 1rem;
+      font-size: 2.5rem;
+      margin-bottom: 0rem;
     }
   
     .list {
@@ -99,7 +99,48 @@
     }
   
     .side-heading {
-      font-size: 1.8rem;
+      font-size: 1.5rem;
+      line-height: 1;
+    }
+  
+    .highlight {
+      font-size: 2rem;
+    }
+    .right-content {
+        margin-top: 0rem;
+      }
+    
+  }
+  @media (min-height: 800px) {
+    .covered-page {
+      padding: 2rem;
+    }
+  
+    .content {
+      flex-direction: column;
+      align-items: center;
+      gap: 0rem;
+    }
+  
+    .left-content, .right-content {
+      width: 100%;
+      padding-left: 0;
+      text-align: center;
+    }
+  
+    .main-heading {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+      line-height: 1.2;
+    }
+  
+    .list {
+      font-size: 1rem;
+    }
+  
+    .side-heading {
+      font-size: 1.5rem;
+      line-height: 1.5;
     }
   
     .highlight {
