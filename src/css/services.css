@@ -1,4 +1,4 @@
-.services-section {
+/* .services-section {
     background-color: white;
     padding: 3rem 1rem;
     text-align: center;
@@ -69,4 +69,141 @@
     .services-text {
         font-size: 0.95rem;
     }
+} */
+
+/* services.css */
+
+.whole-Servise-Page{
+    display: flex;
+    justify-content: center;
 }
+
+.services-page {
+    /* max-width: 900px; */
+    width: 100vw;
+    min-height: 100vh;
+    background: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4rem 2rem;
+    box-sizing: border-box;
+  }
+  
+  .service-main-heading {
+    font-size: 9.357rem;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 4rem;
+    color: #000000;
+    font-family: League Spartan;
+  }
+  
+  .service-columns {
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+    justify-content: space-between;
+    gap: 4rem;
+    flex-wrap: wrap;
+  }
+  
+  .service-block {
+    flex: 1;
+    min-width: 300px;
+    text-align: center;
+    position: relative;
+  }
+  
+  .service-block.left {
+    text-align: left;
+  }
+  
+  .service-block.right {
+    text-align: right;
+  }
+  
+  .title {
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    font-family: League Spartan;
+  }
+  
+  .desc {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.8;
+    color: #333333;
+    max-width: 90%;
+    font-family: Outfit;
+    margin: 0 auto;
+  }
+  
+  .abc{
+    display: none;
+  }
+  .icon {
+    width: 180px;
+    height: auto;
+    margin-top: 2rem;
+  }
+ 
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .service-columns {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    /* .service-block {
+      text-align: center !important;
+    }
+  
+    .title, .desc {
+      text-align: end;
+    } */
+  
+    .desc {
+      max-width: 100%;
+    }
+    .service-main-heading {
+        font-size: 3rem;
+      
+        margin-bottom: 1rem;
+    }
+
+    .icon {
+        width: 80px;
+        height: auto;/*  */
+        margin-top: 0rem;
+      }
+      .desc {
+      
+        line-height: 1;
+        
+      }
+      .title {
+        margin-bottom: 1rem;
+      }
+      .service-columns {
+     
+        justify-content: space-between; 
+        gap: 5rem;
+      }
+     
+      
+      .abc{
+        display: inline;
+      }
+      .cba{
+        display: none;
+      }
+      .Service-block-alignment{
+        display: flex;
+        justify-content: center;
+        /* align-items: center; */
+      }
+  }
+  
