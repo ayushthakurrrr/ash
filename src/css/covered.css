@@ -24,7 +24,7 @@
     font-size: 7rem;
     font-weight: 700;
     color: #000000;
-    margin-bottom: 3rem;
+    margin-bottom: 1rem;
     font-family: League Spartan;
     /* line-height: 1.2; */
   }
@@ -45,9 +45,9 @@
 }
 
 .right-content {
-    flex: 1;
-    text-align: left;
-    padding-left: 2rem;
+    /* flex: 1; */
+    text-align: right;
+    /* padding-left: 2rem; */
     margin-top: 3rem;
     font-family: Outfit;
   }
@@ -61,14 +61,14 @@
   
   .side-heading {
     font-size: 2rem;
-    font-weight: 700;
+    font-weight: 500;
     color: #000000;
     line-height: 1.6;
   }
   
   .highlight {
     font-size: 2.8rem;
-    font-weight: 900;
+    font-weight: 700;
   }
   
   /* Responsive */

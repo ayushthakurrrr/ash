@@ -37,9 +37,11 @@ function Covered() {
 
         <div className="right-content">
           <h2 className="side-heading">
-            We got you <br />
-            <span className="highlight">COVERED</span> <br />
-            under US...
+            you're good  <br />to 
+            <span className="highlight"> GO</span> with 
+            <span className="highlight"> US</span>  <br />on
+            <span className="highlight"> YOUR SIDE</span>
+            
           </h2>
         </div>
       </div>
